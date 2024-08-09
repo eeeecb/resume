@@ -1,0 +1,140 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Hugo Profile"
+  description: Text about my cool site
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+
+  mathjax: false
+  animate: true
+
+  navbar:
+    align: ms-auto
+    brandName: "Hugo Profile"
+    disableSearch: false
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Olá, meu nome é"
+    title: "Eduardo Barbosa."
+    subtitle: "Eu desenvolvo soluções para a web."
+    content: "Sou um desenvolvedor de software e estudante apaixonado, com experiência em programação, código limpo e resolução de problemas. Estou me aprofundando na área de segurança de software e explorando novas tecnologias enquanto crio soluções inovadoras para a web."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/eduardo-barbosa
+        - icon: fab fa-linkedin
+          url: https://twitter.com/eduardo-c-barbosa
+
+  about:
+    enable: true
+    title: "Sobre Mim"
+    image: "/images/me.png"
+    content: |-
+     Eu sou Eduardo Barbosa, estudante de Análise e Desenvolvimento de Sistemas no Centro Universitário IESB, apaixonado por desenvolvimento de software e tecnologias web. Tenho especialização em programação, código limpo e análise de dados. Gosto de trabalhar em projetos inovadores que desafiem minhas habilidades de resolução de problemas e me permitam colaborar com outras pessoas.
+
+     Atualmente, estou trabalhando em um projeto de chatbot integrado com o GPT-4 da OpenAI para apoiar o sistema de suporte de uma instituição educacional. Também tenho experiência no desenvolvimento de scripts de web scraping usando Playwright e BeautifulSoup, além de construir componentes React responsivos para diversas aplicações. Além disso, estou estudando para tentar ingressar na área de segurança de software, ampliando meus conhecimentos para enfrentar novos desafios nesta área.
+    skills:
+      enable: true
+      title: "Aqui estão algumas das tecnologias com as quais tenho trabalhado recentemente:"
+      items:
+        - "C"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "MongoDB"
+        - "Lua"
+
+  experience:
+    enable: true
+    items:
+      - job: "Desenvolvedor de Software"
+        company: "Centro Universitário IESB"
+        companyUrl: "https://www.iesb.br"
+        date: "Aug 2023 - Presente"
+        content: |
+          Trabalhando como desenvolvedor de software, com foco na integração do GPT-4 da OpenAI para um chatbot utilizado no sistema de suporte da universidade. Colaborando com uma equipe para garantir uma experiência do usuário sem falhas e aprimorar as capacidades do sistema.
+      - job: "Estagiário em Desenvolvimento Web"
+        company: "Freelance Projects"
+        date: "Mar 2022 - Presente"
+        content: |
+          Desenvolvi e mantive diversos projetos web, incluindo tarefas de web scraping usando Playwright e BeautifulSoup, e a construção de componentes React interativos. Focado em criar código eficiente e escalável.
+  education:
+    enable: true
+    items:
+      - title: "Tecnologo em Análise e Desenvolvimento de Sistemas"
+        school:
+          name: "Centro Universitário IESB"
+          url: "https://www.iesb.br"
+        date: "2023 - 2025"
+        content: |-
+          Adquirindo uma compreensão abrangente do desenvolvimento de software, análise de dados e integração de sistemas. Atuando em diversos projetos que conectam o conhecimento teórico com aplicações práticas.
+  projects:
+    enable: true
+    items:
+      - title: CHATBOT-FRONT-NEXT
+        content: A Next.js frontend project for a chatbot integrated with OpenAI's GPT-4 to support educational services.
+        url: "https://github.com/eduardo-barbosa/CHATBOT-FRONT-NEXT"
+        image: /images/projects/chatbot-next.png
+      - title: BACKEND-ADS
+        content: A backend project focused on managing APIs for an educational institution's support system.
+        url: "https://github.com/eduardo-barbosa/BACKEND-ADS"
+        image: /images/projects/backend-ads.png
+
+  contact:
+    enable: true
+    title: "Entre em Contato"
+    content: |-
+      Minha inbox está sempre aberta. Seja para uma pergunta ou apenas para dizer olá, farei o possível para responder!
+      Abraços, Eduardo!
+    btnName: Envie-me um e-mail
+    btnLink: mailto:dudis.ecb@gmail.com
+    socialLinks:
+      enable: true
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/eduardo-barbosa
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/eduardo-barbosa

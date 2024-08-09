@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Profile</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projetos</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>CHATBOT-FRONT-NEXT Um assistente virtual para o Centro Universitário IESB, utilizando Next.js com TypeScript e LangChain.js.&#xA;BACKEND-ADS Desenvolvimento de aplicações backend utilizando JavaScript, NodeJS e MongoDB.</description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/skills/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/skills/</guid>
+      <description> Programação Código Limpo Suporte Técnico Resolução de Problemas Análise de Dados Trabalho em Equipe C, CSS, JavaScript, MongoDB e Lua </description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Eduardo Barbosa é um desenvolvedor de software com experiência em programação, código limpo, suporte técnico e análise de dados. Ele tem proficiência em C, CSS, JavaScript, MongoDB e Lua, além de falar Português (nativo), Inglês (Avançado) e Espanhol (Básico).</description>
+    </item>
+  </channel>
+</rss>
