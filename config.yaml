@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Curriculo Vitae | Eduardo Castro Barbosa"
 theme: hugo-profile
 
 outputs:
@@ -32,7 +32,7 @@ params:
 
   navbar:
     align: ms-auto
-    brandName: "Hugo Profile"
+    brandName: "Curriculo Vitae | Eduardo Castro Barbosa"
     disableSearch: false
     stickyNavBar:
       enable : true
