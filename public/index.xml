@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Profile</title>
+    <title>Curriculo Vitae | Eduardo Castro Barbosa</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Hugo Profile</description>
+    <description>Recent content on Curriculo Vitae | Eduardo Castro Barbosa</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>CHATBOT-FRONT-NEXT Um assistente virtual para o Centro Universitário IESB, utilizando Next.js com TypeScript e LangChain.js.&#xA;BACKEND-ADS Desenvolvimento de aplicações backend utilizando JavaScript, NodeJS e MongoDB.</description>
+      <description>chatbot-front-next Um assistente virtual para o Centro Universitário IESB, utilizando Next.js com TypeScript e LangChain.js.&#xA;backend-ads Desenvolvimento de aplicações backend utilizando JavaScript, NodeJS e MongoDB.</description>
     </item>
     <item>
       <title>Skills</title>

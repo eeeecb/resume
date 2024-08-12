@@ -40,9 +40,9 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
+      disableExperiencia: false
+      disableEducação: false
+      disableProjetos: false
       disableAchievements: true
       disableContact: false
 
@@ -52,7 +52,7 @@ params:
     title: "Eduardo Barbosa."
     subtitle: "Eu desenvolvo soluções para a web."
     content: "Sou um desenvolvedor de software e estudante apaixonado, com experiência em programação, código limpo e resolução de problemas. Estou me aprofundando na área de segurança de software e explorando novas tecnologias enquanto crio soluções inovadoras para a web."
-    image: /images/hero.svg
+    image: /images/eduardo.png
     bottomImage:
       enable: true
     button:
@@ -71,7 +71,7 @@ params:
   about:
     enable: true
     title: "Sobre Mim"
-    image: "/images/me.png"
+    image: "/images/eduardo.png"
     content: |-
      Eu sou Eduardo Barbosa, estudante de Análise e Desenvolvimento de Sistemas no Centro Universitário IESB, apaixonado por desenvolvimento de software e tecnologias web. Tenho especialização em programação, código limpo e análise de dados. Gosto de trabalhar em projetos inovadores que desafiem minhas habilidades de resolução de problemas e me permitam colaborar com outras pessoas.
 
@@ -97,7 +97,7 @@ params:
         content: |
           Trabalhando como desenvolvedor de software, com foco na integração do GPT-4 da OpenAI para um chatbot utilizado no sistema de suporte da universidade. Colaborando com uma equipe para garantir uma experiência do usuário sem falhas e aprimorar as capacidades do sistema.
       - job: "Estagiário em Desenvolvimento Web"
-        company: "Freelance Projects"
+        company: "Freelance Projetos"
         date: "Mar 2022 - Presente"
         content: |
           Desenvolvi e mantive diversos projetos web, incluindo tarefas de web scraping usando Playwright e BeautifulSoup, e a construção de componentes React interativos. Focado em criar código eficiente e escalável.
@@ -114,13 +114,13 @@ params:
   projects:
     enable: true
     items:
-      - title: CHATBOT-FRONT-NEXT
-        content: A Next.js frontend project for a chatbot integrated with OpenAI's GPT-4 to support educational services.
-        url: "https://github.com/eduardo-barbosa/CHATBOT-FRONT-NEXT"
-        image: /images/projects/chatbot-next.png
-      - title: BACKEND-ADS
-        content: A backend project focused on managing APIs for an educational institution's support system.
-        url: "https://github.com/eduardo-barbosa/BACKEND-ADS"
+      - title: chatbot-front-next
+        content: Este projeto consiste em um assistente virtual para auxiliar alunos, colaboradores e demais pessoas interessandas em informações gerais sobre o Centro Universitário do IESB. Utiliza inteligência artificial para gerar respostas automatizadas e possui interface de interação humana para atendimento mais detalhado. O projeto foi feito utilizando Next.js com TypeScript e LangChain.js.
+        url: "https://github.com/eduardo-barbosa/chatbot-front-next"
+        image: /images/projects/chatbot.png
+      - title: backend-ads
+        content: Projeto simples onde aprendi a desenvolver aplicacoes backend usando tecnologias como JavaScript, NodeJS e MongoDB.
+        url: "https://github.com/eduardo-barbosa/backend-ads"
         image: /images/projects/backend-ads.png
 
   contact:
